@@ -13,27 +13,8 @@
 		10A8B26C203AFD7B00B68F18 /* ADCalender.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10A8B26A203AFD7B00B68F18 /* ADCalender.xcdatamodeld */; };
 		10A8B26E203AFD7B00B68F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A8B26D203AFD7B00B68F18 /* Assets.xcassets */; };
 		10A8B271203AFD7B00B68F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A8B26F203AFD7B00B68F18 /* LaunchScreen.storyboard */; };
-		10A8B27C203AFD7B00B68F18 /* ADCalenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A8B27B203AFD7B00B68F18 /* ADCalenderTests.swift */; };
-		10A8B287203AFD7B00B68F18 /* ADCalenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A8B286203AFD7B00B68F18 /* ADCalenderUITests.swift */; };
 		10A8B295203AFDA000B68F18 /* ADCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A8B294203AFDA000B68F18 /* ADCalendarView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		10A8B278203AFD7B00B68F18 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 10A8B258203AFD7B00B68F18 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 10A8B25F203AFD7B00B68F18;
-			remoteInfo = ADCalender;
-		};
-		10A8B283203AFD7B00B68F18 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 10A8B258203AFD7B00B68F18 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 10A8B25F203AFD7B00B68F18;
-			remoteInfo = ADCalender;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		10A8B260203AFD7B00B68F18 /* ADCalender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADCalender.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,31 +25,11 @@
 		10A8B26D203AFD7B00B68F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10A8B270203AFD7B00B68F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10A8B272203AFD7B00B68F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10A8B277203AFD7B00B68F18 /* ADCalenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADCalenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		10A8B27B203AFD7B00B68F18 /* ADCalenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADCalenderTests.swift; sourceTree = "<group>"; };
-		10A8B27D203AFD7B00B68F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10A8B282203AFD7B00B68F18 /* ADCalenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADCalenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		10A8B286203AFD7B00B68F18 /* ADCalenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADCalenderUITests.swift; sourceTree = "<group>"; };
-		10A8B288203AFD7B00B68F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10A8B294203AFDA000B68F18 /* ADCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADCalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		10A8B25D203AFD7B00B68F18 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		10A8B274203AFD7B00B68F18 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		10A8B27F203AFD7B00B68F18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				10A8B262203AFD7B00B68F18 /* ADCalender */,
-				10A8B27A203AFD7B00B68F18 /* ADCalenderTests */,
-				10A8B285203AFD7B00B68F18 /* ADCalenderUITests */,
 				10A8B261203AFD7B00B68F18 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				10A8B260203AFD7B00B68F18 /* ADCalender.app */,
-				10A8B277203AFD7B00B68F18 /* ADCalenderTests.xctest */,
-				10A8B282203AFD7B00B68F18 /* ADCalenderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,24 +68,6 @@
 				10A8B26A203AFD7B00B68F18 /* ADCalender.xcdatamodeld */,
 			);
 			path = ADCalender;
-			sourceTree = "<group>";
-		};
-		10A8B27A203AFD7B00B68F18 /* ADCalenderTests */ = {
-			isa = PBXGroup;
-			children = (
-				10A8B27B203AFD7B00B68F18 /* ADCalenderTests.swift */,
-				10A8B27D203AFD7B00B68F18 /* Info.plist */,
-			);
-			path = ADCalenderTests;
-			sourceTree = "<group>";
-		};
-		10A8B285203AFD7B00B68F18 /* ADCalenderUITests */ = {
-			isa = PBXGroup;
-			children = (
-				10A8B286203AFD7B00B68F18 /* ADCalenderUITests.swift */,
-				10A8B288203AFD7B00B68F18 /* Info.plist */,
-			);
-			path = ADCalenderUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,42 +90,6 @@
 			productReference = 10A8B260203AFD7B00B68F18 /* ADCalender.app */;
 			productType = "com.apple.product-type.application";
 		};
-		10A8B276203AFD7B00B68F18 /* ADCalenderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 10A8B28E203AFD7B00B68F18 /* Build configuration list for PBXNativeTarget "ADCalenderTests" */;
-			buildPhases = (
-				10A8B273203AFD7B00B68F18 /* Sources */,
-				10A8B274203AFD7B00B68F18 /* Frameworks */,
-				10A8B275203AFD7B00B68F18 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				10A8B279203AFD7B00B68F18 /* PBXTargetDependency */,
-			);
-			name = ADCalenderTests;
-			productName = ADCalenderTests;
-			productReference = 10A8B277203AFD7B00B68F18 /* ADCalenderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		10A8B281203AFD7B00B68F18 /* ADCalenderUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 10A8B291203AFD7B00B68F18 /* Build configuration list for PBXNativeTarget "ADCalenderUITests" */;
-			buildPhases = (
-				10A8B27E203AFD7B00B68F18 /* Sources */,
-				10A8B27F203AFD7B00B68F18 /* Frameworks */,
-				10A8B280203AFD7B00B68F18 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				10A8B284203AFD7B00B68F18 /* PBXTargetDependency */,
-			);
-			name = ADCalenderUITests;
-			productName = ADCalenderUITests;
-			productReference = 10A8B282203AFD7B00B68F18 /* ADCalenderUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,16 +103,6 @@
 					10A8B25F203AFD7B00B68F18 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
-					};
-					10A8B276203AFD7B00B68F18 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 10A8B25F203AFD7B00B68F18;
-					};
-					10A8B281203AFD7B00B68F18 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 10A8B25F203AFD7B00B68F18;
 					};
 				};
 			};
@@ -227,8 +120,6 @@
 			projectRoot = "";
 			targets = (
 				10A8B25F203AFD7B00B68F18 /* ADCalender */,
-				10A8B276203AFD7B00B68F18 /* ADCalenderTests */,
-				10A8B281203AFD7B00B68F18 /* ADCalenderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,20 +132,6 @@
 				10A8B271203AFD7B00B68F18 /* LaunchScreen.storyboard in Resources */,
 				10A8B26E203AFD7B00B68F18 /* Assets.xcassets in Resources */,
 				10A8B269203AFD7B00B68F18 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		10A8B275203AFD7B00B68F18 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		10A8B280203AFD7B00B68F18 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,36 +149,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		10A8B273203AFD7B00B68F18 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10A8B27C203AFD7B00B68F18 /* ADCalenderTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		10A8B27E203AFD7B00B68F18 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10A8B287203AFD7B00B68F18 /* ADCalenderUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		10A8B279203AFD7B00B68F18 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 10A8B25F203AFD7B00B68F18 /* ADCalender */;
-			targetProxy = 10A8B278203AFD7B00B68F18 /* PBXContainerItemProxy */;
-		};
-		10A8B284203AFD7B00B68F18 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 10A8B25F203AFD7B00B68F18 /* ADCalender */;
-			targetProxy = 10A8B283203AFD7B00B68F18 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		10A8B267203AFD7B00B68F18 /* Main.storyboard */ = {
@@ -458,68 +306,6 @@
 			};
 			name = Release;
 		};
-		10A8B28F203AFD7B00B68F18 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ADCalenderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TESTING.ADCalenderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADCalender.app/ADCalender";
-			};
-			name = Debug;
-		};
-		10A8B290203AFD7B00B68F18 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ADCalenderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TESTING.ADCalenderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADCalender.app/ADCalender";
-			};
-			name = Release;
-		};
-		10A8B292203AFD7B00B68F18 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ADCalenderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TESTING.ADCalenderUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ADCalender;
-			};
-			name = Debug;
-		};
-		10A8B293203AFD7B00B68F18 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ADCalenderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TESTING.ADCalenderUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ADCalender;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -537,24 +323,6 @@
 			buildConfigurations = (
 				10A8B28C203AFD7B00B68F18 /* Debug */,
 				10A8B28D203AFD7B00B68F18 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		10A8B28E203AFD7B00B68F18 /* Build configuration list for PBXNativeTarget "ADCalenderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				10A8B28F203AFD7B00B68F18 /* Debug */,
-				10A8B290203AFD7B00B68F18 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		10A8B291203AFD7B00B68F18 /* Build configuration list for PBXNativeTarget "ADCalenderUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				10A8B292203AFD7B00B68F18 /* Debug */,
-				10A8B293203AFD7B00B68F18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
