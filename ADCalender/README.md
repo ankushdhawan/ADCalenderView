@@ -22,7 +22,7 @@ pod 'ADCalenderView'
 
 ## Author
 
-ankushdhawan, ankush.dhawan@mobileprogramming.net
+ankushdhawan, ankush.dhawan178@gmail.com
 
 ## License
 
